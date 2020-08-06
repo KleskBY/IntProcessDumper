@@ -128,7 +128,7 @@ void DumperThread()
 				 
 							AddLog(std::string("[" + GetTime() + "] WRITING SECTION TO FILE: " + Path +"\n").c_str());
 						}
-						catch (...) {
+                        catch (...) {}
                     }
                     else
                     {
